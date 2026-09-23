@@ -1,0 +1,18 @@
+namespace Bank.Common.Dtos.Response;
+
+public sealed record DepositContractListItem(
+    int Id,
+    string Number,
+    int ClientId,
+    string ClientName,
+    string ProductName,
+    string CurrencyCode,
+    DateOnly StartDate,
+    DateOnly EndDate,
+    int TermMonths,
+    decimal Amount,
+    decimal AnnualRate,
+    string Status,
+    string PrincipalAccountNumber,
+    string InterestAccountNumber,
+    DateOnly? NextPaymentDate);

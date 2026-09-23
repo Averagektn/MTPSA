@@ -1,0 +1,32 @@
+<Solution>
+  <Project Path="Bank.AppHost/Bank.AppHost.csproj" />
+  <Project Path="Bank.Common/Bank.Common.csproj" />
+  <Project Path="Bank.Clients/Bank.Clients.csproj" />
+  <Project Path="Bank.Deposits/Bank.Deposits.csproj" />
+  <Project Path="Bank.Credits/Bank.Credits.csproj" />
+  <Project Path="Bank.Atm/Bank.Atm.csproj" />
+  <Project Path="Test.Clients/Test.Clients.csproj" />
+  <Project Path="Test.Deposits/Test.Deposits.csproj" />
+  <Project Path="Test.Credits/Test.Credits.csproj" />
+  <Project Path="Test.Atm/Test.Atm.csproj" />
+  <Project Path="clients-frontend/clients-frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="frontend/frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="deposits-frontend/deposits-frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="credits-frontend/credits-frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="atm-frontend/atm-frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
